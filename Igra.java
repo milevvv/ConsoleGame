@@ -25,9 +25,10 @@ public class Igra {
         // String g1Butonki = g1.getButonki();
         // System.out.println(g1Butonki);
          
-         int ft1 = 8;
-         int ft2 = 37;
-         int topka;
+       
+         int topka =12;
+    	 int rez1 = 0;
+    	 int rez2 = 0;
     	 
     	 
     	 
@@ -35,15 +36,25 @@ public class Igra {
     	 
     	 
     	 
-    	 
-    	 
-     	System.out.println("--------                            --------");
-     	System.out.println("|                                          |");
-     	System.out.println("|       *                           *      |");
-     	System.out.println("|      /|\\                         /|\\     |");
-     	System.out.println("|       |                           |      |");
-     	System.out.println("|      / \\                         / \\     |");
-     	System.out.println("|__________________________________________|");
+        System.out.println("                     " +rez1+":"+rez2 + "            ");
+     	System.out.println("--------                             --------");
+     	System.out.println("|                                           |");
+     	System.out.println("|       *                            *      |");
+     	System.out.println("|      /|\\                          /|\\     |");
+     	System.out.println("|       |                            |      |");
+     	// най-долен ред
+     	System.out.print("|      / \\");
+     	for(int i =0; i<25; i++) {
+     		if (topka == i) {
+     			System.out.print("o");
+     		}else if(topka != i){
+     	System.out.print(" ");
+     	}
+     	}
+     	System.out.println(" / \\     |");
+     	// до тук
+     	
+     	System.out.println("|___________________________________________|");
         			
         	
 		

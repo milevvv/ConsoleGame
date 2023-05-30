@@ -10,27 +10,39 @@ public class Igra {
     	 
     	 
     	 
-    	 String g1Ime = g1.getIme();
-         System.out.println(g1Ime);
+    	// String g1Ime = g1.getIme();
+        // System.out.println(g1Ime);
     	
-         int g1Godini = g1.getGodini();
-    	 System.out.println(g1Godini); 
+        // int g1Godini = g1.getGodini();
+    	// System.out.println(g1Godini); 
     	 
-    	 int g1Nomer = g1.getNomer();
-    	 System.out.println(g1Nomer);
+    	// int g1Nomer = g1.getNomer();
+    	// System.out.println(g1Nomer);
     	 
-    	 double g1Visochina = g1.getVisochina();
-         System.out.println(g1Visochina);
+    	// double g1Visochina = g1.getVisochina();
+        // System.out.println(g1Visochina);
          
-         String g1Butonki = g1.getButonki();
-         System.out.println(g1Butonki);
+        // String g1Butonki = g1.getButonki();
+        // System.out.println(g1Butonki);
          
-         
+         int ft1 = 8;
+         int ft2 = 37;
+         int topka;
+    	 
+    	 
+    	 
+    	 
+    	 
+    	 
+    	 
+    	 
+    	 
      	System.out.println("--------                            --------");
      	System.out.println("|                                          |");
-     	System.out.println("|                                          |");
-     	System.out.println("|                                          |");
-     	System.out.println("|                                          |");
+     	System.out.println("|       *                           *      |");
+     	System.out.println("|      /|\\                         /|\\     |");
+     	System.out.println("|       |                           |      |");
+     	System.out.println("|      / \\                         / \\     |");
      	System.out.println("|__________________________________________|");
         			
         	
